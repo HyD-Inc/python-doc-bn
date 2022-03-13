@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-24 21:19+0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-02-02 10:56+0600\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: tutorial/classes.rst:5
 msgid "Classes"
-msgstr ""
+msgstr "ক্লাস"
 
 #: tutorial/classes.rst:7
 msgid ""
@@ -28,6 +28,11 @@ msgid ""
 "attributes attached to it for maintaining its state.  Class instances can "
 "also have methods (defined by its class) for modifying its state."
 msgstr ""
+"ক্লাসগুলি একসাথে ডেটা এবং কার্যকারিতা বান্ডিল করার একটি উপায় সরবরাহ করে।একটি নতুন "
+"ক্লাস তৈরি করা বস্তুর একটি নতুন *প্রকার* তৈরি করে, যে ধরনের নতুন *দৃষ্টান্ত* তৈরি "
+"করার অনুমতি দেয়।প্রতিটি শ্রেণীর উদাহরণে তার অবস্থা বজায় রাখার জন্য এটির সাথে "
+"সংযুক্ত বৈশিষ্ট্য থাকতে পারে। ক্লাসের দৃষ্টান্তগুলির অবস্থার পরিবর্তনের জন্য পদ্ধতি (এর "
+"শ্রেণি দ্বারা সংজ্ঞায়িত) থাকতে পারে।"
 
 #: tutorial/classes.rst:13
 msgid ""
@@ -42,6 +47,15 @@ msgid ""
 "nature of Python: they are created at runtime, and can be modified further "
 "after creation."
 msgstr ""
+"অন্যান্য প্রোগ্রামিং ভাষার সাথে তুলনা করে, পাইথনের ক্লাস মেকানিজম ন্যূনতম নতুন "
+"সিনট্যাক্স এবং শব্দার্থবিদ্যা সহ ক্লাস যোগ করে। এটি C++ এবং মডুলা-3-এ পাওয়া ক্লাস "
+"মেকানিজমের মিশ্রণ। পাইথন ক্লাস অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং-এর সমস্ত স্ট্যান্ডার্ড "
+"বৈশিষ্ট্য প্রদান করে: ক্লাস ইনহেরিটেন্স মেকানিজম একাধিক বেস ক্লাসের অনুমতি দেয়, "
+"একটি প্রাপ্ত শ্রেণী তার বেস ক্লাস বা ক্লাসের যেকোন পদ্ধতিকে ওভাররাইড করতে পারে এবং "
+"একটি পদ্ধতি একই নামের একটি বেস ক্লাসের পদ্ধতিকে কল করতে পারে। বস্তুতে নির্বিচারে "
+"পরিমাণ এবং ডেটার প্রকার থাকতে পারে। মডিউলগুলির ক্ষেত্রে যেমন সত্য, ক্লাসগুলি "
+"পাইথনের গতিশীল প্রকৃতির অংশ নেয়: এগুলি রানটাইমে তৈরি করা হয় এবং তৈরির পরে আরও "
+"পরিবর্তন করা যেতে পারে।"
 
 #: tutorial/classes.rst:23
 msgid ""
