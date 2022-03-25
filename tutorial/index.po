@@ -18,7 +18,7 @@ msgstr ""
 
 #: tutorial/index.rst:5
 msgid "The Python Tutorial"
-msgstr ""
+msgstr "পাইথন টিউ‌টো‌রিয়াল"
 
 #: tutorial/index.rst:7
 msgid ""
