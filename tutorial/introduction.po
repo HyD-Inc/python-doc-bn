@@ -3,477 +3,508 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-24 21:19+0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-01-21 23:59+0600\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 3.0\n"
+"Language: bn\n"
 
 #: tutorial/introduction.rst:5
 msgid "An Informal Introduction to Python"
-msgstr ""
+msgstr "পাইথনের অনানুষ্ঠানিক পরিচয় "
 
 #: tutorial/introduction.rst:7
 msgid ""
-"In the following examples, input and output are distinguished by the "
-"presence or absence of prompts (:term:`>>>` and :term:`...`): to repeat the "
-"example, you must type everything after the prompt, when the prompt appears; "
-"lines that do not begin with a prompt are output from the interpreter. Note "
-"that a secondary prompt on a line by itself in an example means you must "
-"type a blank line; this is used to end a multi-line command."
+"In the following examples, input and output are distinguished by the presence or absence of prompts (:term:`>>>` and :"
+"term:`...`): to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do "
+"not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an "
+"example means you must type a blank line; this is used to end a multi-line command."
 msgstr ""
+"প্রদত্ত উদাহরণগুলিতে, ইনপুট এবং আউটপুটকে প্রম্পটের উপস্থিতি বা অনুপস্থিতি দ্বারা আলাদা করা হয় (:term:`>>>` এবং :term:`...`): "
+"উদাহরণটি পুনরাবৃত্তি করতে, আপনাকে অবশ্যই প্রম্পটের পরে সবকিছু টাইপ করতে হবে, যখন প্রম্পটটি প্রদর্শিত হবে; যে লাইনগুলো প্রম্পট দিয়ে "
+"শুরু হয় না সেগুলো ইন্টারপ্রেটার থেকে আউটপুট হয়। মনে রাখবেন যে একটি উদাহরণে একটি লাইনে একটি সেকেন্ডারি প্রম্পটের অর্থ আপনাকে "
+"একটি ফাঁকা লাইন টাইপ করতে হবে; এটি একটি মাল্টি-লাইন কমান্ড শেষ করতে ব্যবহৃত হয়।"
 
 #: tutorial/introduction.rst:16
 msgid ""
-"You can toggle the display of prompts and output by clicking on ``>>>`` in "
-"the upper-right corner of an example box.  If you hide the prompts and "
-"output for an example, then you can easily copy and paste the input lines "
-"into your interpreter."
+"You can toggle the display of prompts and output by clicking on ``>>>`` in the upper-right corner of an example box.  "
+"If you hide the prompts and output for an example, then you can easily copy and paste the input lines into your "
+"interpreter."
 msgstr ""
+"আপনি একটি উদাহরণ বাক্সের উপরের ডানদিকের কোণায় ``>>>`` এ ক্লিক করে প্রম্পট এবং আউটপুট প্রদর্শন টগল করতে পারেন। আপনি যদি একটি "
+"উদাহরণের জন্য প্রম্পট এবং আউটপুট লুকিয়ে রাখেন, তাহলে আপনি সহজেই আপনার দোভাষীতে ইনপুট লাইনগুলি অনুলিপি এবং পেস্ট করতে পারেন।"
 
 #: tutorial/introduction.rst:23
 msgid ""
-"Many of the examples in this manual, even those entered at the interactive "
-"prompt, include comments.  Comments in Python start with the hash character, "
-"``#``, and extend to the end of the physical line.  A comment may appear at "
-"the start of a line or following whitespace or code, but not within a string "
-"literal.  A hash character within a string literal is just a hash character. "
-"Since comments are to clarify code and are not interpreted by Python, they "
-"may be omitted when typing in examples."
+"Many of the examples in this manual, even those entered at the interactive prompt, include comments.  Comments in "
+"Python start with the hash character, ``#``, and extend to the end of the physical line.  A comment may appear at the "
+"start of a line or following whitespace or code, but not within a string literal.  A hash character within a string "
+"literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be "
+"omitted when typing in examples."
 msgstr ""
+"এই ম্যানুয়ালটির অনেক উদাহরণ, এমনকি যেগুলি ইন্টারেক্টিভ প্রম্পটে প্রবেশ করানো হয়েছে, তাতে মন্তব্য অন্তর্ভুক্ত রয়েছে। পাইথনে মন্তব্যগুলি "
+"হ্যাশ অক্ষর, ``#`` দিয়ে শুরু হয় এবং ফিজিক্যাল লাইনের শেষ পর্যন্ত প্রসারিত হয়। একটি মন্তব্য একটি লাইনের শুরুতে বা সাদা স্থান বা কোড "
+"অনুসরণ করে প্রদর্শিত হতে পারে, কিন্তু একটি স্ট্রিং লিটারেলের মধ্যে নয়। একটি স্ট্রিং আক্ষরিক মধ্যে একটি হ্যাশ অক্ষর শুধু একটি হ্যাশ "
+"অক্ষর। যেহেতু মন্তব্যগুলি কোড স্পষ্ট করার জন্য এবং পাইথন দ্বারা ব্যাখ্যা করা হয় না, উদাহরণগুলিতে টাইপ করার সময় সেগুলি বাদ দেওয়া "
+"যেতে পারে।"
 
 #: tutorial/introduction.rst:31
 msgid "Some examples::"
-msgstr ""
+msgstr "কিছু উদাহরণ::"
 
 #: tutorial/introduction.rst:42
 msgid "Using Python as a Calculator"
-msgstr ""
+msgstr "পাইথনকে ক্যালকুলেটর হিসেবে ব্যবহার করা"
 
 #: tutorial/introduction.rst:44
 msgid ""
-"Let's try some simple Python commands.  Start the interpreter and wait for "
-"the primary prompt, ``>>>``.  (It shouldn't take long.)"
+"Let's try some simple Python commands.  Start the interpreter and wait for the primary prompt, ``>>>``.  (It "
+"shouldn't take long.)"
 msgstr ""
+"আসুন কিছু সাধারণ পাইথন কমান্ড চেষ্টা করি। ইন্টারপ্রিটার শুরু করুন এবং প্রাথমিক প্রম্পটের জন্য অপেক্ষা করুন, ``>>>``। (এক্ষেত্রে বেশি "
+"সময় নেওয়া উচিত নয়।)"
 
 #: tutorial/introduction.rst:51
 msgid "Numbers"
-msgstr ""
+msgstr "সংখ্যা"
 
 #: tutorial/introduction.rst:53
 msgid ""
-"The interpreter acts as a simple calculator: you can type an expression at "
-"it and it will write the value.  Expression syntax is straightforward: the "
-"operators ``+``, ``-``, ``*`` and ``/`` work just like in most other "
-"languages (for example, Pascal or C); parentheses (``()``) can be used for "
-"grouping. For example::"
+"The interpreter acts as a simple calculator: you can type an expression at it and it will write the value.  "
+"Expression syntax is straightforward: the operators ``+``, ``-``, ``*`` and ``/`` work just like in most other "
+"languages (for example, Pascal or C); parentheses (``()``) can be used for grouping. For example::"
 msgstr ""
+"দোভাষী একটি সাধারণ ক্যালকুলেটর হিসাবে কাজ করে: আপনি এটিতে একটি এক্সপ্রেশন টাইপ করতে পারেন এবং এটি মান লিখবে। এক্সপ্রেশন "
+"সিনট্যাক্স সোজা: অপারেটর ``+``, ``-``, ``*`` এবং ``/`` অন্যান্য ভাষার মতোই কাজ করে (উদাহরণস্বরূপ, প্যাসকেল বা সি); বন্ধনী "
+"(``()``) গ্রুপ করার জন্য ব্যবহার করা যেতে পারে। উদাহরণ স্বরূপ::"
 
 #: tutorial/introduction.rst:68
 msgid ""
-"The integer numbers (e.g. ``2``, ``4``, ``20``) have type :class:`int`, the "
-"ones with a fractional part (e.g. ``5.0``, ``1.6``) have type :class:"
-"`float`.  We will see more about numeric types later in the tutorial."
+"The integer numbers (e.g. ``2``, ``4``, ``20``) have type :class:`int`, the ones with a fractional part (e.g. "
+"``5.0``, ``1.6``) have type :class:`float`.  We will see more about numeric types later in the tutorial."
 msgstr ""
+"পূর্ণসংখ্যা সংখ্যার (যেমন ``2``, ``4``, ``20``) প্রকার আছে :class:`int`, একটি ভগ্নাংশযুক্ত অংশ (যেমন ``5.0``, ``1.6` `) টাইপ "
+"আছে :class:`float`। আমরা পরবর্তীতে টিউটোরিয়ালে সাংখ্যিক প্রকার সম্পর্কে আরও দেখব।"
 
 #: tutorial/introduction.rst:72
 msgid ""
-"Division (``/``) always returns a float.  To do :term:`floor division` and "
-"get an integer result (discarding any fractional result) you can use the ``//"
-"`` operator; to calculate the remainder you can use ``%``::"
+"Division (``/``) always returns a float.  To do :term:`floor division` and get an integer result (discarding any "
+"fractional result) you can use the ``//`` operator; to calculate the remainder you can use ``%``::"
 msgstr ""
+"ভাগ (``/``) সর্বদা একটি ফ্লোট প্রদান করে। এটি করতে :term:`ফ্লোর ডিভিশন` এবং একটি পূর্ণসংখ্যার ফলাফল পেতে (যে কোনো ভগ্নাংশের "
+"ফলাফল বাদ দিয়ে) আপনি ``//`` অপারেটর ব্যবহার করতে পারেন; অবশিষ্ট গণনা করতে আপনি ``%`` ব্যবহার করতে পারেন::"
 
 #: tutorial/introduction.rst:86
-msgid ""
-"With Python, it is possible to use the ``**`` operator to calculate powers "
-"[#]_::"
-msgstr ""
+msgid "With Python, it is possible to use the ``**`` operator to calculate powers [#]_::"
+msgstr "পাইথনের সাথে, পাওয়ার গণনা করতে ``**`` অপারেটর ব্যবহার করা সম্ভব [#]_::"
 
 #: tutorial/introduction.rst:93
 msgid ""
-"The equal sign (``=``) is used to assign a value to a variable. Afterwards, "
-"no result is displayed before the next interactive prompt::"
+"The equal sign (``=``) is used to assign a value to a variable. Afterwards, no result is displayed before the next "
+"interactive prompt::"
 msgstr ""
+"সমান চিহ্ন (``=``) একটি ভেরিয়েবলের মান নির্ধারণ করতে ব্যবহৃত হয়। পরবর্তীতে, পরবর্তী ইন্টারেক্টিভ প্রম্পটের আগে কোন ফলাফল "
+"প্রদর্শিত হবে না::"
 
 #: tutorial/introduction.rst:101
-msgid ""
-"If a variable is not \"defined\" (assigned a value), trying to use it will "
-"give you an error::"
+msgid "If a variable is not \"defined\" (assigned a value), trying to use it will give you an error::"
 msgstr ""
+"যদি একটি ভেরিয়েবল \"সংজ্ঞায়িত\" না হয় (একটি মান বরাদ্দ করা হয়), এটি ব্যবহার করার চেষ্টা করলে আপনাকে একটি ত্রুটি দেবে::"
 
 #: tutorial/introduction.rst:109
 msgid ""
-"There is full support for floating point; operators with mixed type operands "
-"convert the integer operand to floating point::"
+"There is full support for floating point; operators with mixed type operands convert the integer operand to floating "
+"point::"
 msgstr ""
+"ফ্লোটিং পয়েন্টের জন্য পূর্ণ সমর্থন রয়েছে; মিশ্র ধরনের অপারেন্ড সহ অপারেটররা পূর্ণসংখ্যা অপারেন্ডকে ফ্লোটিং পয়েন্টে রূপান্তর করে::"
 
 #: tutorial/introduction.rst:115
 msgid ""
-"In interactive mode, the last printed expression is assigned to the variable "
-"``_``.  This means that when you are using Python as a desk calculator, it "
-"is somewhat easier to continue calculations, for example::"
+"In interactive mode, the last printed expression is assigned to the variable ``_``.  This means that when you are "
+"using Python as a desk calculator, it is somewhat easier to continue calculations, for example::"
 msgstr ""
+"ইন্টারেক্টিভ মোডে, শেষ মুদ্রিত অভিব্যক্তিটি ভেরিয়েবল ``_``-এ বরাদ্দ করা হয়। এর মানে হল যে আপনি যখন একটি ডেস্ক ক্যালকুলেটর "
+"হিসাবে পাইথন ব্যবহার করছেন, তখন গণনা চালিয়ে যাওয়া কিছুটা সহজ, উদাহরণস্বরূপ::"
 
 #: tutorial/introduction.rst:128
 msgid ""
-"This variable should be treated as read-only by the user.  Don't explicitly "
-"assign a value to it --- you would create an independent local variable with "
-"the same name masking the built-in variable with its magic behavior."
+"This variable should be treated as read-only by the user.  Don't explicitly assign a value to it --- you would create "
+"an independent local variable with the same name masking the built-in variable with its magic behavior."
 msgstr ""
+"এই ভেরিয়েবলটিকে ব্যবহারকারীর দ্বারা শুধুমাত্র পঠন হিসাবে বিবেচনা করা উচিত। স্পষ্টভাবে এটিতে একটি মান বরাদ্দ করবেন না --- আপনি "
+"একটি স্বতন্ত্র স্থানীয় ভেরিয়েবল তৈরি করবেন একই নামের সাথে বিল্ট-ইন ভেরিয়েবলটিকে এর যাদুর মত আচরণের সাথে মাস্ক করে।"
 
 #: tutorial/introduction.rst:132
 msgid ""
-"In addition to :class:`int` and :class:`float`, Python supports other types "
-"of numbers, such as :class:`~decimal.Decimal` and :class:`~fractions."
-"Fraction`. Python also has built-in support for :ref:`complex numbers "
-"<typesnumeric>`, and uses the ``j`` or ``J`` suffix to indicate the "
-"imaginary part (e.g. ``3+5j``)."
+"In addition to :class:`int` and :class:`float`, Python supports other types of numbers, such as :class:`~decimal."
+"Decimal` and :class:`~fractions.Fraction`. Python also has built-in support for :ref:`complex numbers "
+"<typesnumeric>`, and uses the ``j`` or ``J`` suffix to indicate the imaginary part (e.g. ``3+5j``)."
 msgstr ""
+":class:`int` এবং :class:`float` ছাড়াও, পাইথন অন্যান্য ধরনের সংখ্যা সমর্থন করে, যেমন :class:`~decimal.Decimal` এবং :class:"
+"`~fractions.fraction`। পাইথন এর মধ্যে এছাড়াও :ref:`complex numbers  <typesnumeric>`-এর জন্য অন্তর্নির্মিত সমর্থন রয়েছে এবং "
+"কাল্পনিক অংশ নির্দেশ করতে ``j`` বা ``J`` প্রত্যয় ব্যবহার করে (যেমন ``3+5j``)।"
 
 #: tutorial/introduction.rst:142
 msgid "Strings"
-msgstr ""
+msgstr "স্ট্রিংস"
 
 #: tutorial/introduction.rst:144
 msgid ""
-"Besides numbers, Python can also manipulate strings, which can be expressed "
-"in several ways.  They can be enclosed in single quotes (``'...'``) or "
-"double quotes (``\"...\"``) with the same result [#]_.  ``\\`` can be used "
-"to escape quotes::"
+"Besides numbers, Python can also manipulate strings, which can be expressed in several ways.  They can be enclosed in "
+"single quotes (``'...'``) or double quotes (``\"...\"``) with the same result [#]_.  ``\\`` can be used to escape "
+"quotes::"
 msgstr ""
+"সংখ্যার পাশাপাশি, পাইথন স্ট্রিংগুলিকেও ম্যানিপুলেট করতে পারে, যা বিভিন্ন উপায়ে প্রকাশ করা যেতে পারে। সেগুলি একই ফলাফল [#]_ সহ "
+"একক উদ্ধৃতি (``'...'``) বা দ্বিগুণ উদ্ধৃতি (``\"...\"``) এ আবদ্ধ করা যেতে পারে। ``\\`` উদ্ধৃতি এড়ানোর জন্য ব্যবহার করা যেতে "
+"পারে::"
 
 #: tutorial/introduction.rst:162
 msgid ""
-"In the interactive interpreter, the output string is enclosed in quotes and "
-"special characters are escaped with backslashes.  While this might sometimes "
-"look different from the input (the enclosing quotes could change), the two "
-"strings are equivalent.  The string is enclosed in double quotes if the "
-"string contains a single quote and no double quotes, otherwise it is "
-"enclosed in single quotes.  The :func:`print` function produces a more "
-"readable output, by omitting the enclosing quotes and by printing escaped "
-"and special characters::"
+"In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with "
+"backslashes.  While this might sometimes look different from the input (the enclosing quotes could change), the two "
+"strings are equivalent.  The string is enclosed in double quotes if the string contains a single quote and no double "
+"quotes, otherwise it is enclosed in single quotes.  The :func:`print` function produces a more readable output, by "
+"omitting the enclosing quotes and by printing escaped and special characters::"
 msgstr ""
+"ইন্টারেক্টিভ ইন্টারপ্রেটারে, আউটপুট স্ট্রিংটি উদ্ধৃতিতে আবদ্ধ থাকে এবং বিশেষ অক্ষরগুলি ব্যাকস্ল্যাশ সহ এস্কেপ করা হয়। যদিও এটি কখনও "
+"কখনও ইনপুট থেকে আলাদা দেখতে পারে (ঘেরা উদ্ধৃতিগুলি পরিবর্তন হতে পারে), দুটি স্ট্রিং সমতুল্য। স্ট্রিংটি ডবল উদ্ধৃতিতে আবদ্ধ থাকে যদি "
+"স্ট্রিংটিতে একটি একক উদ্ধৃতি থাকে এবং কোন দ্বিগুণ উদ্ধৃতি না থাকে, অন্যথায় এটি একক উদ্ধৃতিতে আবদ্ধ থাকে । :func:`print` ফাংশনটি "
+"আরও পাঠের উপযোগী আউটপুট তৈরি করে, এনক্লোসিং কোটগুলি বাদ দিয়ে এবং escaped এবং বিশেষ অক্ষরগুলি প্রিন্ট করে::"
 
 #: tutorial/introduction.rst:182
 msgid ""
-"If you don't want characters prefaced by ``\\`` to be interpreted as special "
-"characters, you can use *raw strings* by adding an ``r`` before the first "
-"quote::"
+"If you don't want characters prefaced by ``\\`` to be interpreted as special characters, you can use *raw strings* by "
+"adding an ``r`` before the first quote::"
 msgstr ""
+"আপনি যদি ``\\`` দ্বারা পূর্বে লেখা অক্ষরগুলিকে বিশেষ অক্ষর হিসাবে ব্যাখ্যা করতে না চান, তাহলে আপনি প্রথম উদ্ধৃতির আগে একটি ``r`` "
+"যোগ করে *raw string* ব্যবহার করতে পারেন::"
 
 #: tutorial/introduction.rst:192
 msgid ""
-"String literals can span multiple lines.  One way is using triple-quotes: ``"
-"\"\"\"...\"\"\"`` or ``'''...'''``.  End of lines are automatically included "
-"in the string, but it's possible to prevent this by adding a ``\\`` at the "
-"end of the line.  The following example::"
+"String literals can span multiple lines.  One way is using triple-quotes: ``\"\"\"...\"\"\"`` or ``'''...'''``.  End "
+"of lines are automatically included in the string, but it's possible to prevent this by adding a ``\\`` at the end of "
+"the line.  The following example::"
 msgstr ""
+"স্ট্রিং লিটারেল একাধিক লাইন বিস্তৃত করতে পারে। একটি উপায় হল ট্রিপল-উদ্ধৃতি ব্যবহার করা: ``\"\"\"...\"\"\"`` বা ``'''...'''``। "
+"লাইনের শেষ স্বয়ংক্রিয়ভাবে স্ট্রিংয়ে অন্তর্ভুক্ত হয়, কিন্তু লাইনের শেষে একটি ``\\`` যোগ করে এটি প্রতিরোধ করা সম্ভব। নিম্নলিখিত "
+"উদাহরণ::"
 
 #: tutorial/introduction.rst:203
-msgid ""
-"produces the following output (note that the initial newline is not "
-"included):"
-msgstr ""
+msgid "produces the following output (note that the initial newline is not included):"
+msgstr "নিম্নলিখিত আউটপুট তৈরি করে (মনে রাখবেন যে প্রাথমিক নতুন লাইন অন্তর্ভুক্ত করা হয়নি):"
 
 #: tutorial/introduction.rst:211
-msgid ""
-"Strings can be concatenated (glued together) with the ``+`` operator, and "
-"repeated with ``*``::"
-msgstr ""
+msgid "Strings can be concatenated (glued together) with the ``+`` operator, and repeated with ``*``::"
+msgstr "স্ট্রিংগুলিকে ``+`` অপারেটরের সাথে সংযুক্ত করা যেতে পারে (একসাথে আটকানো) এবং ``*`` দিয়ে পুনরাবৃত্তি করা যেতে পারে:"
 
 #: tutorial/introduction.rst:218
 msgid ""
-"Two or more *string literals* (i.e. the ones enclosed between quotes) next "
-"to each other are automatically concatenated. ::"
-msgstr ""
+"Two or more *string literals* (i.e. the ones enclosed between quotes) next to each other are automatically "
+"concatenated. ::"
+msgstr "দুই বা ততোধিক *স্ট্রিং লিটারেল* (অর্থাৎ উদ্ধৃতির মধ্যে আবদ্ধ) একে অপরের পাশে স্বয়ংক্রিয়ভাবে সংযুক্ত হয়। ::"
 
 #: tutorial/introduction.rst:224
-msgid ""
-"This feature is particularly useful when you want to break long strings::"
-msgstr ""
+msgid "This feature is particularly useful when you want to break long strings::"
+msgstr "এই বৈশিষ্ট্যটি বিশেষভাবে কার্যকর যখন আপনি দীর্ঘ স্ট্রিংগুলি ভাঙতে চান::"
 
 #: tutorial/introduction.rst:231
-msgid ""
-"This only works with two literals though, not with variables or expressions::"
-msgstr ""
+msgid "This only works with two literals though, not with variables or expressions::"
+msgstr "যদিও এটি শুধুমাত্র দুটি লিটারেলের সাথে কাজ করে, ভেরিয়েবল বা এক্সপ্রেশনের সাথে নয়::"
 
 #: tutorial/introduction.rst:245
-msgid ""
-"If you want to concatenate variables or a variable and a literal, use ``+``::"
-msgstr ""
+msgid "If you want to concatenate variables or a variable and a literal, use ``+``::"
+msgstr "আপনি যদি ভেরিয়েবল বা একটি ভেরিয়েবল এবং একটি আক্ষরিক সংযুক্ত করতে চান, তাহলে ``+`` ব্যবহার করুন::"
 
 #: tutorial/introduction.rst:250
 msgid ""
-"Strings can be *indexed* (subscripted), with the first character having "
-"index 0. There is no separate character type; a character is simply a string "
-"of size one::"
+"Strings can be *indexed* (subscripted), with the first character having index 0. There is no separate character type; "
+"a character is simply a string of size one::"
 msgstr ""
+"স্ট্রিংগুলি *সূচিবদ্ধ* (সাবস্ক্রিপ্ট করা) হতে পারে, প্রথম অক্ষরটির সূচক 0 থাকে। কোন পৃথক অক্ষর প্রকার নেই; একটি অক্ষর কেবল আকারের "
+"একটি স্ট্রিং::"
 
 #: tutorial/introduction.rst:260
-msgid ""
-"Indices may also be negative numbers, to start counting from the right::"
-msgstr ""
+msgid "Indices may also be negative numbers, to start counting from the right::"
+msgstr "ডান থেকে গণনা শুরু করতে সূচকগুলি ঋণাত্মক সংখ্যাও হতে পারে::"
 
 #: tutorial/introduction.rst:269
 msgid "Note that since -0 is the same as 0, negative indices start from -1."
-msgstr ""
+msgstr "মনে রাখবেন যেহেতু -0 0 এর সমান, তাই ঋণাত্মক সূচকগুলি -1 থেকে শুরু হয়।"
 
 #: tutorial/introduction.rst:271
 msgid ""
-"In addition to indexing, *slicing* is also supported.  While indexing is "
-"used to obtain individual characters, *slicing* allows you to obtain "
-"substring::"
+"In addition to indexing, *slicing* is also supported.  While indexing is used to obtain individual characters, "
+"*slicing* allows you to obtain substring::"
 msgstr ""
+"ইন্ডেক্সিং ছাড়াও, *স্লাইসিং* করা ও সমর্থিত। স্বতন্ত্র অক্ষরগুলি পেতে ইন্ডেক্সিং ব্যবহার করা হলেও, *স্লাইসিং* আপনাকে সাবস্ট্রিং পেতে "
+"সুযোগ দেয়::"
 
 #: tutorial/introduction.rst:279
 msgid ""
-"Slice indices have useful defaults; an omitted first index defaults to zero, "
-"an omitted second index defaults to the size of the string being sliced. ::"
+"Slice indices have useful defaults; an omitted first index defaults to zero, an omitted second index defaults to the "
+"size of the string being sliced. ::"
 msgstr ""
+"স্লাইস সূচকগুলির দরকারী ডিফল্ট রয়েছে; একটি বাদ দেওয়া প্রথম সূচক ডিফল্ট শূন্য, একটি বাদ দেওয়া দ্বিতীয় সূচক ডিফল্ট স্ট্রিং স্লাইস করা "
+"আকারে। ::"
 
 #: tutorial/introduction.rst:289
 msgid ""
-"Note how the start is always included, and the end always excluded.  This "
-"makes sure that ``s[:i] + s[i:]`` is always equal to ``s``::"
+"Note how the start is always included, and the end always excluded.  This makes sure that ``s[:i] + s[i:]`` is always "
+"equal to ``s``::"
 msgstr ""
+"নোট করুন কিভাবে শুরু সবসময় অন্তর্ভুক্ত করা হয়, এবং শেষ সবসময় বাদ দেওয়া হয়। এটি নিশ্চিত করে যে ``s[:i] + s[i:]`` সর্বদা ``s`` "
+"এর সমান:"
 
 #: tutorial/introduction.rst:297
 msgid ""
-"One way to remember how slices work is to think of the indices as pointing "
-"*between* characters, with the left edge of the first character numbered 0. "
-"Then the right edge of the last character of a string of *n* characters has "
-"index *n*, for example::"
+"One way to remember how slices work is to think of the indices as pointing *between* characters, with the left edge "
+"of the first character numbered 0. Then the right edge of the last character of a string of *n* characters has index "
+"*n*, for example::"
 msgstr ""
+"স্লাইসগুলি কীভাবে কাজ করে তা মনে রাখার একটি উপায় হল সূচকগুলিকে * অক্ষরের মধ্যে * নির্দেশক হিসাবে ভাবা, প্রথম অক্ষরের বাম "
+"প্রান্তটি 0 নম্বরযুক্ত। তারপর *n* অক্ষরের একটি স্ট্রিংয়ের শেষ অক্ষরের ডান প্রান্তে সূচক *n* আছে, উদাহরণস্বরূপ::"
 
 #: tutorial/introduction.rst:308
 msgid ""
-"The first row of numbers gives the position of the indices 0...6 in the "
-"string; the second row gives the corresponding negative indices. The slice "
-"from *i* to *j* consists of all characters between the edges labeled *i* and "
-"*j*, respectively."
+"The first row of numbers gives the position of the indices 0...6 in the string; the second row gives the "
+"corresponding negative indices. The slice from *i* to *j* consists of all characters between the edges labeled *i* "
+"and *j*, respectively."
 msgstr ""
+"সংখ্যার প্রথম সারিটি স্ট্রিংটিতে সূচকের অবস্থান 0...6 দেয়; দ্বিতীয় সারি সংশ্লিষ্ট নেতিবাচক সূচক দেয়। *i* থেকে *j* পর্যন্ত স্লাইসটি "
+"যথাক্রমে *i* এবং *j* লেবেলযুক্ত প্রান্তগুলির মধ্যে সমস্ত অক্ষর নিয়ে গঠিত।"
 
 #: tutorial/introduction.rst:313
 msgid ""
-"For non-negative indices, the length of a slice is the difference of the "
-"indices, if both are within bounds.  For example, the length of "
-"``word[1:3]`` is 2."
+"For non-negative indices, the length of a slice is the difference of the indices, if both are within bounds.  For "
+"example, the length of ``word[1:3]`` is 2."
 msgstr ""
+"অ-নেতিবাচক সূচকগুলির জন্য, একটি স্লাইসের দৈর্ঘ্য হল সূচকগুলির পার্থক্য, যদি উভয়ই সীমার মধ্যে থাকে। উদাহরণস্বরূপ, ``শব্দ[1:3]`` এর "
+"দৈর্ঘ্য 2।"
 
 #: tutorial/introduction.rst:317
 msgid "Attempting to use an index that is too large will result in an error::"
-msgstr ""
+msgstr "খুব বড় একটি সূচক (ইনডেক্স) ব্যবহার করার চেষ্টা করলে একটি ত্রুটি দেখা দেবে::"
 
 #: tutorial/introduction.rst:324
-msgid ""
-"However, out of range slice indexes are handled gracefully when used for "
-"slicing::"
-msgstr ""
+msgid "However, out of range slice indexes are handled gracefully when used for slicing::"
+msgstr "যাইহোক, সীমার বাইরের স্লাইস সূচীগুলি যখন স্লাইস করার জন্য ব্যবহার করা হয় তখন সুন্দরভাবে পরিচালনা করা হয়::"
 
 #: tutorial/introduction.rst:332
 msgid ""
-"Python strings cannot be changed --- they are :term:`immutable`. Therefore, "
-"assigning to an indexed position in the string results in an error::"
+"Python strings cannot be changed --- they are :term:`immutable`. Therefore, assigning to an indexed position in the "
+"string results in an error::"
 msgstr ""
+"পাইথন স্ট্রিং পরিবর্তন করা যাবে না --- তারা হল :term:` অপরিবর্তনীয়`। অতএব, স্ট্রিং-এ একটি সূচীকৃত অবস্থানে বরাদ্দ করার ফলে একটি "
+"ত্রুটি দেখা দেয়::"
 
 #: tutorial/introduction.rst:344
 msgid "If you need a different string, you should create a new one::"
-msgstr ""
+msgstr "আপনার যদি একটি ভিন্ন স্ট্রিং প্রয়োজন হয়, তাহলে আপনাকে একটি নতুন তৈরি করা উচিত::"
 
 #: tutorial/introduction.rst:351
 msgid "The built-in function :func:`len` returns the length of a string::"
-msgstr ""
+msgstr "অন্তর্নির্মিত ফাংশন :func:`len` একটি স্ট্রিং এর দৈর্ঘ্য প্রদান করে::"
 
 #: tutorial/introduction.rst:362
 msgid ":ref:`textseq`"
-msgstr ""
+msgstr ": ref: `textseq`"
 
 #: tutorial/introduction.rst:361
-msgid ""
-"Strings are examples of *sequence types*, and support the common operations "
-"supported by such types."
-msgstr ""
+msgid "Strings are examples of *sequence types*, and support the common operations supported by such types."
+msgstr "স্ট্রিংগুলি *ক্রম প্রকার* এর উদাহরণ এবং এই ধরনের দ্বারা সমর্থিত সাধারণ ক্রিয়াকলাপগুলিকে সমর্থন করে।"
 
 #: tutorial/introduction.rst:366
 msgid ":ref:`string-methods`"
-msgstr ""
+msgstr ":ref:`string-methods`"
 
 #: tutorial/introduction.rst:365
-msgid ""
-"Strings support a large number of methods for basic transformations and "
-"searching."
-msgstr ""
+msgid "Strings support a large number of methods for basic transformations and searching."
+msgstr "স্ট্রিংগুলি মৌলিক রূপান্তর এবং অনুসন্ধানের জন্য প্রচুর সংখ্যক পদ্ধতি সমর্থন করে।"
 
 #: tutorial/introduction.rst:369
 msgid ":ref:`f-strings`"
-msgstr ""
+msgstr ":ref:`f-strings`"
 
 #: tutorial/introduction.rst:369
 msgid "String literals that have embedded expressions."
-msgstr ""
+msgstr "স্ট্রিং লিটারেল যেগুলোতে এম্বেড করা এক্সপ্রেশন আছে। "
 
 #: tutorial/introduction.rst:372
 msgid ":ref:`formatstrings`"
-msgstr ""
+msgstr ":ref:`formatstrings`"
 
 #: tutorial/introduction.rst:372
 msgid "Information about string formatting with :meth:`str.format`."
-msgstr ""
+msgstr ":meth:`str.format` এর সাথে স্ট্রিং বিন্যাস সংক্রান্ত তথ্য।"
 
 #: tutorial/introduction.rst:375
 msgid ":ref:`old-string-formatting`"
-msgstr ""
+msgstr ":ref:`old-string-formatting`"
 
 #: tutorial/introduction.rst:375
 msgid ""
-"The old formatting operations invoked when strings are the left operand of "
-"the ``%`` operator are described in more detail here."
+"The old formatting operations invoked when strings are the left operand of the ``%`` operator are described in more "
+"detail here."
 msgstr ""
+"স্ট্রিংগুলি ``%`` অপারেটরের বাম অপারেন্ড হলে যে পুরানো ফর্ম্যাটিং ক্রিয়াকলাপগুলিকে আহ্বান করা হয় সেগুলি এখানে আরও বিশদে বর্ণনা "
+"করা হয়েছে৷"
 
 #: tutorial/introduction.rst:382
 msgid "Lists"
-msgstr ""
+msgstr "তালিকা"
 
 #: tutorial/introduction.rst:384
 msgid ""
-"Python knows a number of *compound* data types, used to group together other "
-"values.  The most versatile is the *list*, which can be written as a list of "
-"comma-separated values (items) between square brackets.  Lists might contain "
-"items of different types, but usually the items all have the same type. ::"
+"Python knows a number of *compound* data types, used to group together other values.  The most versatile is the "
+"*list*, which can be written as a list of comma-separated values (items) between square brackets.  Lists might "
+"contain items of different types, but usually the items all have the same type. ::"
 msgstr ""
+"সবচেয়ে বহুমুখী হল *তালিকা*, যা বর্গাকার বন্ধনীর মধ্যে কমা-বিভক্ত মান (আইটেম) এর তালিকা হিসাবে লেখা যেতে পারে।পাইথন অনেকগুলি "
+"*যৌগ* ডেটা প্রকার জানে, যা অন্যান্য মানগুলিকে একত্রিত করতে ব্যবহৃত হয়। তালিকায় বিভিন্ন ধরনের আইটেম থাকতে পারে, কিন্তু সাধারণত "
+"আইটেম সব একই ধরনের থাকে। ::"
 
 #: tutorial/introduction.rst:393
-msgid ""
-"Like strings (and all other built-in :term:`sequence` types), lists can be "
-"indexed and sliced::"
-msgstr ""
+msgid "Like strings (and all other built-in :term:`sequence` types), lists can be indexed and sliced::"
+msgstr "স্ট্রিংগুলির মতো (এবং অন্যান্য সমস্ত অন্তর্নির্মিত :term:`sequence` প্রকার), তালিকাগুলিকে সূচিবদ্ধ এবং স্লাইস করা যেতে পারে::"
 
 #: tutorial/introduction.rst:403
 msgid ""
-"All slice operations return a new list containing the requested elements.  "
-"This means that the following slice returns a :ref:`shallow copy "
-"<shallow_vs_deep_copy>` of the list::"
+"All slice operations return a new list containing the requested elements.  This means that the following slice "
+"returns a :ref:`shallow copy <shallow_vs_deep_copy>` of the list::"
 msgstr ""
+"সমস্ত স্লাইস অপারেশন অনুরোধ করা উপাদান সমন্বিত একটি নতুন তালিকা প্রদান করে। এর মানে হল যে নিম্নলিখিত স্লাইসটি তালিকার একটি :"
+"ref:`shallow copy <shallow_vs_deep_copy>` প্রদান করে::"
 
 #: tutorial/introduction.rst:410
 msgid "Lists also support operations like concatenation::"
-msgstr ""
+msgstr "তালিকাগুলি সংযুক্তকরণের মতো ক্রিয়াকলাপগুলিকেও সমর্থন করে::"
 
 #: tutorial/introduction.rst:415
 msgid ""
-"Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` "
-"type, i.e. it is possible to change their content::"
+"Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` type, i.e. it is possible to change their "
+"content::"
 msgstr ""
+"স্ট্রিংগুলির বিপরীতে, যা :term:`পরিবর্তনযোগ্য`, তালিকাগুলি হল একটি :term:`mutable` প্রকার, অর্থাৎ তাদের বিষয়বস্তু পরিবর্তন করা "
+"সম্ভব::"
 
 #: tutorial/introduction.rst:425
 msgid ""
-"You can also add new items at the end of the list, by using the :meth:`~list."
-"append` *method* (we will see more about methods later)::"
+"You can also add new items at the end of the list, by using the :meth:`~list.append` *method* (we will see more about "
+"methods later)::"
 msgstr ""
+"এছাড়াও আপনি :meth:`~list.append` *পদ্ধতি* ব্যবহার করে তালিকার শেষে নতুন আইটেম যোগ করতে পারেন (আমরা পদ্ধতিগুলি সম্পর্কে আরও "
+"পরে দেখবেন)::"
 
 #: tutorial/introduction.rst:433
-msgid ""
-"Assignment to slices is also possible, and this can even change the size of "
-"the list or clear it entirely::"
-msgstr ""
+msgid "Assignment to slices is also possible, and this can even change the size of the list or clear it entirely::"
+msgstr "স্লাইসগুলিতে অ্যাসাইনমেন্টও সম্ভব, এবং এটি এমনকি তালিকার আকার পরিবর্তন করতে পারে বা এটি সম্পূর্ণরূপে সাফ করতে পারে::"
 
 #: tutorial/introduction.rst:452
 msgid "The built-in function :func:`len` also applies to lists::"
-msgstr ""
+msgstr "বিল্ট-ইন ফাংশন :func:`len` তালিকার ক্ষেত্রেও প্রযোজ্য::"
 
 #: tutorial/introduction.rst:458
-msgid ""
-"It is possible to nest lists (create lists containing other lists), for "
-"example::"
-msgstr ""
+msgid "It is possible to nest lists (create lists containing other lists), for example::"
+msgstr "নেস্ট তালিকা করা সম্ভব (অন্যান্য তালিকা ধারণকারী তালিকা তৈরি করুন), উদাহরণস্বরূপ::"
 
 #: tutorial/introduction.rst:474
 msgid "First Steps Towards Programming"
-msgstr ""
+msgstr "প্রোগ্রামিং এর দিকে প্রথম ধাপ"
 
 #: tutorial/introduction.rst:476
 msgid ""
-"Of course, we can use Python for more complicated tasks than adding two and "
-"two together.  For instance, we can write an initial sub-sequence of the "
-"`Fibonacci series <https://en.wikipedia.org/wiki/Fibonacci_number>`_ as "
-"follows::"
+"Of course, we can use Python for more complicated tasks than adding two and two together.  For instance, we can write "
+"an initial sub-sequence of the `Fibonacci series <https://en.wikipedia.org/wiki/Fibonacci_number>`_ as follows::"
 msgstr ""
+"অবশ্যই, আমরা দুটি এবং দুটি একসাথে যোগ করার চেয়ে আরও জটিল কাজের জন্য পাইথন ব্যবহার করতে পারি। উদাহরণস্বরূপ, আমরা `ফিবোনাক্কি "
+"সিরিজ <https://en.wikipedia.org/wiki/Fibonacci_number>`_ এর একটি প্রাথমিক সাব-সিকোয়েন্স লিখতে পারি নিম্নরূপ::"
 
 #: tutorial/introduction.rst:496
 msgid "This example introduces several new features."
-msgstr ""
+msgstr "এই উদাহরণটি বেশ কয়েকটি নতুন বৈশিষ্ট্য উপস্থাপন করে।"
 
 #: tutorial/introduction.rst:498
 msgid ""
-"The first line contains a *multiple assignment*: the variables ``a`` and "
-"``b`` simultaneously get the new values 0 and 1.  On the last line this is "
-"used again, demonstrating that the expressions on the right-hand side are "
-"all evaluated first before any of the assignments take place.  The right-"
-"hand side expressions are evaluated  from the left to the right."
+"The first line contains a *multiple assignment*: the variables ``a`` and ``b`` simultaneously get the new values 0 "
+"and 1.  On the last line this is used again, demonstrating that the expressions on the right-hand side are all "
+"evaluated first before any of the assignments take place.  The right-hand side expressions are evaluated  from the "
+"left to the right."
 msgstr ""
+"প্রথম লাইনে একটি *একাধিক অ্যাসাইনমেন্ট* রয়েছে: ভেরিয়েবল ``a`` এবং ``b`` একই সাথে নতুন মান 0 এবং 1 পায়। শেষ লাইনে এটি আবার "
+"ব্যবহার করা হয়েছে, এটি প্রদর্শন করে যে ডানদিকের অভিব্যক্তিগুলি যে কোনও অ্যাসাইনমেন্ট নেওয়ার আগে প্রথমে মূল্যায়ন করা হয়। ডানদিকের "
+"অভিব্যক্তিগুলি বাম থেকে ডানে মূল্যায়ন করা হয়।"
 
 #: tutorial/introduction.rst:504
 msgid ""
-"The :keyword:`while` loop executes as long as the condition (here: ``a < "
-"10``) remains true.  In Python, like in C, any non-zero integer value is "
-"true; zero is false.  The condition may also be a string or list value, in "
-"fact any sequence; anything with a non-zero length is true, empty sequences "
-"are false.  The test used in the example is a simple comparison.  The "
-"standard comparison operators are written the same as in C: ``<`` (less "
-"than), ``>`` (greater than), ``==`` (equal to), ``<=`` (less than or equal "
-"to), ``>=`` (greater than or equal to) and ``!=`` (not equal to)."
+"The :keyword:`while` loop executes as long as the condition (here: ``a < 10``) remains true.  In Python, like in C, "
+"any non-zero integer value is true; zero is false.  The condition may also be a string or list value, in fact any "
+"sequence; anything with a non-zero length is true, empty sequences are false.  The test used in the example is a "
+"simple comparison.  The standard comparison operators are written the same as in C: ``<`` (less than), ``>`` (greater "
+"than), ``==`` (equal to), ``<=`` (less than or equal to), ``>=`` (greater than or equal to) and ``!=`` (not equal to)."
 msgstr ""
+":কীওয়ার্ড:`while` লুপ কার্যকর হয় যতক্ষণ পর্যন্ত শর্তটি (এখানে: ``a <10``) সত্য থাকে। পাইথনে, সি-র মতো, যেকোনো অ-শূন্য পূর্ণসংখ্যার "
+"মান সত্য; শূন্য মিথ্যা। শর্তটি একটি স্ট্রিং বা তালিকা মানও হতে পারে, প্রকৃতপক্ষে যেকোনো ক্রম; শূন্য নয় এমন দৈর্ঘ্যের যেকোনো কিছুই "
+"সত্য, খালি ক্রমগুলি মিথ্যা। উদাহরণে ব্যবহৃত পরীক্ষাটি একটি সহজ তুলনা। স্ট্যান্ডার্ড তুলনা অপারেটরগুলি সি-তে যেমন লেখা হয়: ``<`` (এর "
+"চেয়ে কম), ``>`` (এর চেয়ে বড়), ``==`` (এর সমান), ``<=`` ( এর থেকে কম বা সমান), ``>=`` (এর চেয়ে বড় বা সমান) এবং ``!=`` "
+"(এর সমান নয়)।"
 
 #: tutorial/introduction.rst:513
 msgid ""
-"The *body* of the loop is *indented*: indentation is Python's way of "
-"grouping statements.  At the interactive prompt, you have to type a tab or "
-"space(s) for each indented line.  In practice you will prepare more "
-"complicated input for Python with a text editor; all decent text editors "
-"have an auto-indent facility.  When a compound statement is entered "
-"interactively, it must be followed by a blank line to indicate completion "
-"(since the parser cannot guess when you have typed the last line).  Note "
-"that each line within a basic block must be indented by the same amount."
+"The *body* of the loop is *indented*: indentation is Python's way of grouping statements.  At the interactive prompt, "
+"you have to type a tab or space(s) for each indented line.  In practice you will prepare more complicated input for "
+"Python with a text editor; all decent text editors have an auto-indent facility.  When a compound statement is "
+"entered interactively, it must be followed by a blank line to indicate completion (since the parser cannot guess when "
+"you have typed the last line).  Note that each line within a basic block must be indented by the same amount."
 msgstr ""
+"লুপের *বডি* হল *ইন্ডেন্টেড*: ইন্ডেন্টেশন হল পাইথনের স্টেটমেন্ট গ্রুপ করার উপায়। ইন্টারেক্টিভ প্রম্পটে, আপনাকে প্রতিটি ইন্ডেন্টেড "
+"লাইনের জন্য একটি ট্যাব বা স্থান(গুলি) টাইপ করতে হবে। অনুশীলনে আপনি একটি পাঠ্য সম্পাদকের সাথে পাইথনের জন্য আরও জটিল ইনপুট প্রস্তুত "
+"করবেন; সমস্ত শালীন পাঠ্য সম্পাদকের একটি অটো-ইন্ডেন্ট সুবিধা রয়েছে। যখন একটি যৌগিক বিবৃতি ইন্টারেক্টিভভাবে প্রবেশ করা হয়, তখন "
+"সম্পূর্ণতা নির্দেশ করার জন্য এটি একটি ফাঁকা লাইন দ্বারা অনুসরণ করা আবশ্যক (যেহেতু আপনি শেষ লাইনটি টাইপ করেছেন তখন পার্সার অনুমান "
+"করতে পারে না)। মনে রাখবেন যে একটি মৌলিক ব্লকের মধ্যে প্রতিটি লাইন একই পরিমাণ দ্বারা ইন্ডেন্ট করা আবশ্যক।"
 
 #: tutorial/introduction.rst:522
 msgid ""
-"The :func:`print` function writes the value of the argument(s) it is given. "
-"It differs from just writing the expression you want to write (as we did "
-"earlier in the calculator examples) in the way it handles multiple "
-"arguments, floating point quantities, and strings.  Strings are printed "
-"without quotes, and a space is inserted between items, so you can format "
-"things nicely, like this::"
+"The :func:`print` function writes the value of the argument(s) it is given. It differs from just writing the "
+"expression you want to write (as we did earlier in the calculator examples) in the way it handles multiple arguments, "
+"floating point quantities, and strings.  Strings are printed without quotes, and a space is inserted between items, "
+"so you can format things nicely, like this::"
 msgstr ""
+":func:`print` ফাংশনটি প্রদত্ত আর্গুমেন্টের মান লিখে। আপনি যে অভিব্যক্তিটি লিখতে চান (যেমন আমরা ক্যালকুলেটর উদাহরণগুলিতে আগে "
+"করেছি) এটি যেভাবে একাধিক আর্গুমেন্ট, ফ্লোটিং পয়েন্ট পরিমাণ এবং স্ট্রিংগুলি পরিচালনা করে তা থেকে এটি আলাদা। স্ট্রিংগুলি উদ্ধৃতি "
+"ছাড়াই মুদ্রিত হয় এবং আইটেমগুলির মধ্যে একটি স্পেস ঢোকানো হয়, যাতে আপনি জিনিসগুলি সুন্দরভাবে ফর্ম্যাট করতে পারেন, যেমন::"
 
 #: tutorial/introduction.rst:533
 msgid ""
-"The keyword argument *end* can be used to avoid the newline after the "
-"output, or end the output with a different string::"
+"The keyword argument *end* can be used to avoid the newline after the output, or end the output with a different "
+"string::"
 msgstr ""
+"কীওয়ার্ড আর্গুমেন্ট *end* আউটপুটের পরে নতুন লাইন এড়াতে ব্যবহার করা যেতে পারে, অথবা একটি ভিন্ন স্ট্রিং দিয়ে আউটপুট শেষ করতে পারে::"
 
 #: tutorial/introduction.rst:545
 msgid "Footnotes"
-msgstr ""
+msgstr "পাদটীকা (ফুটনোটস) "
 
 #: tutorial/introduction.rst:546
 msgid ""
-"Since ``**`` has higher precedence than ``-``, ``-3**2`` will be interpreted "
-"as ``-(3**2)`` and thus result in ``-9``.  To avoid this and get ``9``, you "
-"can use ``(-3)**2``."
+"Since ``**`` has higher precedence than ``-``, ``-3**2`` will be interpreted as ``-(3**2)`` and thus result in "
+"``-9``.  To avoid this and get ``9``, you can use ``(-3)**2``."
 msgstr ""
+"যেহেতু ``**``-এর অগ্রাধিকার ``-`` এর চেয়ে বেশি, ``-3**2`` কে ``-(3**2)`` হিসাবে ব্যাখ্যা করা হবে এবং এর ফলে ``-9` `। এটি "
+"এড়াতে এবং ``9`` পেতে, আপনি ``(-3)**2`` ব্যবহার করতে পারেন।"
 
 #: tutorial/introduction.rst:550
 msgid ""
-"Unlike other languages, special characters such as ``\\n`` have the same "
-"meaning with both single (``'...'``) and double (``\"...\"``) quotes. The "
-"only difference between the two is that within single quotes you don't need "
-"to escape ``\"`` (but you have to escape ``\\'``) and vice versa."
+"Unlike other languages, special characters such as ``\\n`` have the same meaning with both single (``'...'``) and "
+"double (``\"...\"``) quotes. The only difference between the two is that within single quotes you don't need to "
+"escape ``\"`` (but you have to escape ``\\'``) and vice versa."
 msgstr ""
+"অন্যান্য ভাষার বিপরীতে, বিশেষ অক্ষর যেমন ``\\n`` একক (``'...'``) এবং দ্বিগুণ (``\"...\"``) উদ্ধৃতিগুলির সাথে একই অর্থ রয়েছে৷ "
+"উভয়ের মধ্যে পার্থক্য হল একক উদ্ধৃতিগুলির মধ্যে আপনাকে ``\"`` (কিন্তু আপনাকে ``\\'`` থেকে পালাতে হবে) এবং তদ্বিপরীত।"
